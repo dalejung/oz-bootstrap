@@ -1,7 +1,7 @@
 """Defines application routes"""
 
 import oz
-from bootstrap.handlers import home
+from .handlers import home
 
 oz.routes(
     # Format: (<path>, <handler>, [dict(<request handler kwargs>)])
